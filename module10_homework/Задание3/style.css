@@ -1,0 +1,108 @@
+body {
+    font-style: italic;
+    background: radial-gradient(at top, rgba(199, 238, 174, 100) 0%, rgba(223, 163, 90, 100) 100%);
+}
+
+#chat {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #006D4F;
+}
+
+.info_output {
+    color: grey;
+    font-style: italic;
+
+}
+
+.chat_output {
+    margin: 10px 0;
+    border: 3px solid #35D3A7;
+    padding: 10px;
+    min-height: 150px;
+    max-height: 100%;
+    overflow-y: none;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.chat_output>div {
+    max-width: 80%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 3px;
+    color: black;
+}
+
+.chat_output a {
+    text-decoration: none;
+    color: #006D4F;
+    border-radius: 3px;
+}
+
+.chat_output .recieved {
+    font-style: italic;
+    border: 3px solid #35D3A7;
+    align-self: flex-start;
+}
+
+.chat_output .sent {
+    font-style: italic;
+    border: 3px solid #35D3A7;
+    align-self: flex-end;
+}
+
+.chat_input {
+    margin: 0 auto;
+}
+
+
+.chat_input input {
+    font-style: italic;
+    width: 265px;
+    padding: 5px 10px;
+    border: 3px solid #35D3A7;
+    cursor: pointer;
+    background: transparent;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00A779;
+}
+
+.btn_send {
+    width: 100px;
+    padding: 8px 10px;
+    color: #fff;
+    font-style: italic;
+    background: #35D3A7;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.btn_send-geo {
+    width: 100px;
+    padding: 8px 10px;
+    color: #fff;
+    font-style: italic;
+    background: #35D3A7;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.btn_send:hover {
+    background: #00A779;
+}
+
+.btn_send-geo:hover {
+    background: #00A779;
+}
